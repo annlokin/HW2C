@@ -19,11 +19,11 @@ bool Validate(int number)
 }   
 int ThirdDigit(int number)
 {
-    while (number < 999)
+    while (number > 999)
     {
         number/=10;
     }
-    return (number % 10);
+    return number = number % 10;
 }
 int number = Prompt("Введите число");
 if (Validate(number))
