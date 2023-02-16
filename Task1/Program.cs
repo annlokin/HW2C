@@ -21,5 +21,5 @@ int number = Prompt("Введите 3-хзначное число");
 if (Validate(number))
 {
     int lastDigit = number/10 % 10;
-    System.Console.WriteLine($"вторя цифра числа {number} равна {lastDigit}");
+    System.Console.WriteLine($"вторая цифра числа {number} равна {lastDigit}");
 }
